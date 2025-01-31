@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel = 'stylesheet' href="styles.css">
+</head>
+<body>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+<!-- Navigation Bar -->
+<nav>
+    <div class="logo">My Portfolio</div>
+    <ul>
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">About Me</a></li>
+        <li><a href="#qualifications" class="nav-link">Qualifications</a></li>
+        <li><a href="#skills" class="nav-link">Project</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+</nav>
+
+<!-- Home Section -->
+<section id="home">
+    <h1>Welcome to My Portfolio</h1>
+    <h3>Discover my journey, skills, and professional projects.</h3>
+    <p>Learn More</p>
+</section>
+
+<!-- About Me Section -->
+<section id="about">
+    <h2>About Me</h2>
+    <div class="about-container">
+        <img src="image/portfolio1.jpeg" alt="About Me">
+        <p>
+    "I am a passionate Full Stack Developer with expertise in both front-end and back-end development. 
+    I specialize in creating dynamic and user-centric web applications, ensuring seamless interaction across 
+    all layers of development. My journey in tech began with a curiosity for coding, and over the years, 
+    I've refined my skills in both server-side and client-side technologies. I stay up-to-date with the latest trends 
+    and tools in the industry to deliver modern, scalable, and efficient web solutions. Collaboration, problem-solving, 
+    and continuous learning are at the heart of my work ethic, enabling me to create solutions that meet both client and 
+    user expectations. My goal is to craft end-to-end digital experiences that empower users and businesses alike."
+</p>
+
+    </div>
+</section>
+
+<!-- Qualifications Section -->
+<section id="qualifications">
+<div class="cosmic-container">
+  <div class="galactic-navigation">
+    <button class="nebula-btn" onclick="showZone('void-skills')">SKILLS</button>
+    <button class="nebula-btn" onclick="showZone('black-hole-path')">QUALIFICATION</button>
+    <button class="nebula-btn" onclick="showZone('pro-chronicles')">EXPERIENCE</button>
+  </div>
+
+  <!-- Abilities Section -->
+ <div id="void-skills" class="hidden-zone void-skills">
+    <h1>SKILLS</h1>
+    <div class="abilities-zone">
+      <!-- Ability 1 -->
+      <div class="stellar-abilities">
+        <div class="orbital">
+          <img src="image/portfolioicon1.png" alt="HTML">
+        </div>
+        <p>HTML</p>
+        <div class="power-indicator">90%</div>
+        <input type="range" class="experience-bar" min="0" max="100" value="90" disabled>
+      </div>
+      <!-- Ability 2 -->
+      <div class="stellar-abilities">
+        <div class="orbital">
+          <img src="image/portfolioicon2.png" alt="CSS">
+        </div>
+        <p>CSS</p>
+        <div class="power-indicator">85%</div>
+        <input type="range" class="experience-bar" min="0" max="100" value="85" disabled>
+      </div>
+      <!-- Ability 3 -->
+      <div class="stellar-abilities">
+        <div class="orbital">
+          <img src="image/portfolioicon3.png" alt="JavaScript">
+        </div>
+        <p>JavaScript</p>
+        <div class="power-indicator">80%</div>
+        <input type="range" class="experience-bar" min="0" max="100" value="80" disabled>
+      </div>
+      <!-- Ability 4 -->
+      <div class="stellar-abilities">
+        <div class="orbital">
+          <img src="image/portfolioicon4.png" alt="React">
+        </div>
+        <p>React</p>
+        <div class="power-indicator">75%</div>
+        <input type="range" class="experience-bar" min="0" max="100" value="75" disabled>
+      </div>
+      <!-- Ability 5 -->
+      <div class="stellar-abilities">
+        <div class="orbital">
+          <img src="image/portfolioicon5.png" alt="Node.js">
+        </div>
+        <p>Node.js</p>
+        <div class="power-indicator">70%</div>
+        <input type="range" class="experience-bar" min="0" max="100" value="70" disabled>
+      </div>
+      <!-- Ability 6 -->
+      <div class="stellar-abilities">
+        <div class="orbital">
+          <img src="image/portfolioicon6.png" alt="MongoDB">
+        </div>
+        <p>MongoDB</p>
+        <div class="power-indicator">65%</div>
+        <input type="range" class="experience-bar" min="0" max="100" value="65" disabled>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Journey Section -->
+  <div id="black-hole-path" class="hidden-zone black-hole-path">
+    <div class="knowledge-base">
+      <img src="image/portfolioicon10.png" alt="Education" class="wisdom-icon">
+      <span>Education</span>
+    </div>
+    <ul class="knowledge-path">
+      <li>Bachelor's Degree in Computer Science - University of California, Berkeley (2015-2019)</li>
+      <li>Master's Degree in Computer Science - MIT (2020-2022)</li>
+      <li>Full Stack Development Certification - Tech Institute (2022)</li>
+      <li>Advanced JavaScript Certification - Code Academy (2023)</li>
+      <li>React.js Certification - React Academy (2023)</li>
+      <li>Node.js & MongoDB Certification - Developer Hub (2023)</li>
+    </ul>
+  </div>
+
+  <!-- Chronicles Section -->
+  <div id="pro-chronicles" class="hidden-zone pro-chronicles">
+    <h2>EXPERIENCE</h2>
+    <div class="chronicle-card">
+      <div class="image-realm">
+        <img src="image/a2.jpg" class="active">
+        <img src="image/a4.jpg">
+        <img src="image/a5.jpg">
+      </div>
+      <h3>Fullstack Developer</h3>
+      <p>TechSolutions Inc. (2023-2024)</p>
+      <p>Developed and maintained dynamic websites using HTML, CSS, JavaScript, and React.js. Worked on responsive UI design, improving user experience, website performance, and SEO.</p>
+    </div>
+  </div>
+</div>
+
+</section>
+
+<section id="skills">
+    <h1>My Projects</h1> <!-- Now it will be above -->
+    <div class="container">
+        <div class="slide">
+            <div class="item" style="background-image: url(image/project7.jpg);"></div>
+            <div class="item" style="background-image: url(image/project4.jpg);"></div>
+            <div class="item" style="background-image: url(image/project13.jpg);"></div>
+            <div class="item" style="background-image: url(image/project6.jpg);"></div>
+            <div class="item" style="background-image: url(image/project14.jpg);"></div>
+            <div class="item" style="background-image: url(image/a7.jpg);"></div>
+        </div>
+
+        <div class="button">
+            <button class="prev"><i class="fa-solid fa-arrow-left"></i></button>
+            <button class="next"><i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <h2 style="color: orangered;">Contact Me</h2>
+
+    <form id="inputbox">
+        <input id="name" type="text" placeholder="Your Name" required>
+        <input id="mail" type="email" placeholder="Your Mail" required>
+        <textarea id="msg" rows="5" placeholder="Your Message" required></textarea>
+        <input type="submit" value="Send Message">
+    </form>
+    <div id="responseMessage"></div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
