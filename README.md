@@ -14,3 +14,17 @@ This project is a portfolio website template designed to showcase work, skills, 
 - **HTML5**: To structure the content.
 - **CSS3**: For layout and styling, including animations and responsiveness.
 - **JavaScript**: For interactivity and dynamic content.
+
+## Screenshots:
+### I have attached the screenshots below for reference.
+
+
+![Alt Text](portfolioImage1.png)
+
+![Alt Text](portfolioImage2.png)
+
+![Alt Text](portfolioImage3.png)
+
+![Alt Text](portfolioImage4.png)
+
+![Alt Text](portfolioImage5.png)
